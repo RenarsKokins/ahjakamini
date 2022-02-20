@@ -16,8 +16,9 @@ return new class extends Migration
         Schema::create('images', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->foreignId('fireplace_id')->constrained()->nullable();
             $table->string('path');
+            $table->boolean('show_in_gallery')->default(TRUE);
+            $table->foreignId('fireplace_id')->constrained()->nullable();
         });
     }
 

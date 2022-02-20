@@ -1,0 +1,28 @@
+.red-background {
+    background-color: #8C080C;
+}
+
+.logo-fixed {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 5px 10px 20px #00000028;
+}
+.logo-small {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .logo-fixed {
+        display: none;
+    }
+    .logo-small {
+        display: inline;
+    }
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
