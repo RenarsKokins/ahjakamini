@@ -7,7 +7,7 @@
 			<a href="https://www.instagram.com/ahjalatvia/" title="Follow on Instagram" style="font-size:24px"><i class="fa fa-instagram text-white px-3"></i></a>
 		</li>
 		<li>
-			<a href="https://www.facebook.com/profile.php?id=100067985113608" title="Follow on Pinterest" style="font-size:24px"><i class="fa fa-pinterest text-white px-3"></i></a>
+			<a href="https://www.pinterest.com/ahjamoodulahi/ahja-moodulahju-ahjud/" title="Follow on Pinterest" style="font-size:24px"><i class="fa fa-pinterest text-white px-3"></i></a>
 		</li>
 	</ul>
 </div>
@@ -46,16 +46,29 @@
 
 		<!-- Locale -->
 		<div class="dropdown">
-			<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-				EN
-			</a>
-			vajag divus dropdown lists ar valstīm, šo vajag uzstādīt kā none, līdz brīdim, kad parādās sandwitch
-			<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-				<li><a class="dropdown-item" href="#">Action</a></li>
-				<li><a class="dropdown-item" href="#">Another action</a></li>
-				<li><a class="dropdown-item" href="#">Something else here</a></li>
-			</ul>
+			<select id="locale-select" class="form-select" aria-label="Language selection">
+				@foreach($languages as $language)
+					@if (strtolower($language->iso) == app()->getLocale())
+						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}" selected>{{$language->full}}</option>
+					@else
+						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}">{{$language->full}}</option>
+					@endif
+					
+				@endforeach
+			</select>
 		</div>
+
+		<script>
+			$(function(){
+				$('#locale-select').on('change', function () {
+					var url = $(this).val();
+					if (url) {
+						window.location = url;
+					}
+					return false;
+				});
+			});
+		</script>
 	</div>
 </nav>
 <div class="logo-fixed px-4">

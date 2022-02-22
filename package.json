@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/RenarsKokins/ahjakamini/issues"
   },
-  "homepage": "https://github.com/RenarsKokins/ahjakamini#readme"
+  "homepage": "https://github.com/RenarsKokins/ahjakamini#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
