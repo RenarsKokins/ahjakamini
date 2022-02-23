@@ -1,13 +1,13 @@
 <div class="container-fluid red-background">
     <ul class="list-group list-group-horizontal list-unstyled justify-content-end p-1">
 		<li>
-			<a href="https://www.facebook.com/profile.php?id=100067985113608" title="Follow on Facebook" style="font-size:24px"><i class="fa fa-facebook text-white px-3"></i></a>
+			<a href="https://www.facebook.com/profile.php?id=100067985113608" title="Follow on Facebook" style="font-size:24px"><i class="fa-brands fa-facebook px-3 text-white"></i></a>
 		</li>
 		<li>
-			<a href="https://www.instagram.com/ahjalatvia/" title="Follow on Instagram" style="font-size:24px"><i class="fa fa-instagram text-white px-3"></i></a>
+			<a href="https://www.instagram.com/ahjalatvia/" title="Follow on Instagram" style="font-size:24px"><i class="fa-brands fa-instagram px-3 text-white"></i></a>
 		</li>
 		<li>
-			<a href="https://www.pinterest.com/ahjamoodulahi/ahja-moodulahju-ahjud/" title="Follow on Pinterest" style="font-size:24px"><i class="fa fa-pinterest text-white px-3"></i></a>
+			<a href="https://www.pinterest.com/ahjamoodulahi/ahja-moodulahju-ahjud/" title="Follow on Pinterest" style="font-size:24px"><i class="fa-brands fa-pinterest px-3 text-white"></i></a>
 		</li>
 	</ul>
 </div>

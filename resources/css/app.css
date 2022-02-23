@@ -1,3 +1,9 @@
+/* Elements */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Navbar */
 .red-background {
     background-color: #8C080C;
 }
@@ -23,6 +29,39 @@
     }
 }
 
-body {
-    background-color: rgb(230, 230, 230);
+/* Button */
+.ahja-button {
+    background-color: #b4926b;
+    color: white;
+    border-radius: 0;
+}
+
+.ahja-ghost-button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 0;
+}
+
+/* Home page */
+.img-landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/home.png");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    border: 2px solid;
+    padding: 5rem 0 5rem 0;
+}
+
+.img-features {
+    background: url("/img/features.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+/* Footer */
+.icon-footer {
+    color: #8C080C;
+    font-size: 2.5rem;
 }
