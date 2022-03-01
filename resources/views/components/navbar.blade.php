@@ -49,9 +49,9 @@
 			<select id="locale-select" class="form-select" aria-label="Language selection">
 				@foreach($languages as $language)
 					@if (strtolower($language->iso) == app()->getLocale())
-						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}" selected>{{$language->full}}</option>
+						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}" selected >{{$language->iso}}</option>
 					@else
-						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}">{{$language->full}}</option>
+						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}">{{$language->iso}}</option>
 					@endif
 					
 				@endforeach

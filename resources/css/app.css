@@ -3,9 +3,13 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 /* Navbar */
 .red-background {
-    background-color: #8C080C;
+    background-color: #9F2C36;
 }
 
 .logo-fixed {
@@ -31,7 +35,7 @@ body {
 
 /* Button */
 .ahja-button {
-    background-color: #b4926b;
+    background-color: #9F2C36;
     color: white;
     border-radius: 0;
 }
@@ -40,6 +44,10 @@ body {
     border: 2px solid white;
     color: white;
     border-radius: 0;
+}
+
+.ahja-ghost-button:hover {
+    color: darkgray;
 }
 
 /* Home page */
@@ -54,14 +62,34 @@ body {
 }
 
 .img-features {
-    background: url("/img/features.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: -20px 20px #9F2C36;
+    position: relative;
+}
+
+.magnifying-glass {
+    border-radius: 50px;
+    background-color: #9F2C36;
+    color: white;
+    z-index: 2;
+}
+
+.carousel img {
+    height: 24rem;
+    width: auto;
+}
+
+.carousel a:hover {
+    background-color: #9F2C36;
+}
+
+.carousel img:hover {
+    opacity: 0.6;
 }
 
 /* Footer */
 .icon-footer {
-    color: #8C080C;
+    color: #9F2C36;
     font-size: 2.5rem;
 }

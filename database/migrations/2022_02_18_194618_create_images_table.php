@@ -18,7 +18,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('path');
             $table->boolean('show_in_gallery')->default(TRUE);
-            $table->foreignId('fireplace_id')->constrained()->nullable();
+            $table->foreignId('fireplace_id')->default(NULL)->nullable();
         });
     }
 
