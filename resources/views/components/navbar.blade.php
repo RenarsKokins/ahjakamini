@@ -22,19 +22,19 @@
 					<a class="nav-link" href="/">{{__('messages.home')}}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{Route::has('home') ? route('home') : '#'}}">{{__('messages.about_us')}}</a>
+					<a class="nav-link" href="{{Route::has('about') ? route('about') : '#'}}">{{__('messages.about_us')}}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{Route::has('about') ? route('about') : '#'}}">{{__('messages.products')}}</a>
+					<a class="nav-link" href="{{Route::has('products') ? route('products') : '#'}}">{{__('messages.products')}}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{Route::has('products') ? route('products') : '#'}}">{{__('messages.price')}}</a>
+					<a class="nav-link" href="{{Route::has('price') ? route('price') : '#'}}">{{__('messages.price')}}</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="{{Route::has('gallery') ? route('gallery') : '#'}}">{{__('messages.gallery')}}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{Route::has('contact') ? route('contact') : '#'}}">{{__('messages.contact')}}</a>
+					<a class="nav-link" href="{{Route::has('contacts') ? route('contacts') : '#'}}">{{__('messages.contact')}}</a>
 				</li>
 			</ul>
 		</div>
