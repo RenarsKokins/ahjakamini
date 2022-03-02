@@ -26,7 +26,33 @@
         <!-- Main conent -->
         <div class="container-fluid img-landing">
             <div class="container py-5 flex-row">
-                <h1 class="py-4">{{__('messages.home_title')}}</h1>
+                <h1 class="py-4">{{__('messages.gallery')}}</h1>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col px-1">
+                    @foreach ($images_sorted[0] as $image)
+                        <div class="gallery-background my-2">
+                            <img class="gallery-image" src="{{url('/')}}/{{$image->path}}" alt="fireplace-photos" data-fancybox="gallery">
+                        </div>
+                    @endforeach
+                </div>
+                <div class="col px-1">
+                    @foreach ($images_sorted[1] as $image)
+                        <div class="gallery-background my-2">
+                            <img class="gallery-image" src="{{url('/')}}/{{$image->path}}" alt="fireplace-photos" data-fancybox="gallery">
+                        </div>
+                    @endforeach
+                </div>
+                <div class="col px-1">
+                    @foreach ($images_sorted[2] as $image)
+                        <div class="gallery-background my-2">
+                            <img class="gallery-image" src="{{url('/')}}/{{$image->path}}" alt="fireplace-photos" data-fancybox="gallery">
+                        </div>
+                    @endforeach
+                </div>
             </div>
         </div>
 

@@ -1,14 +1,14 @@
 <div id="contact-form" class="container-fluid bg-light p-0 py-4">
     <div class="container">
         <div class="row p-4 gx-md-5">
-            <div class="col-md-6 py-4 order-2 order-md-1">
+            <div class="col-md-5 py-4 d-md-inline d-none">
                 <div class="position-relative">
-                    <img class="img-features" src="/img/features.jpg" alt="fireplace">
+                    <img class="img-features" src="/img/quote.webp" alt="fireplace">
                 </div>
             </div>
-            <div class="col-md-6 py-4 order-1 order-md-2 d-flex flex-column justify-content-center">
+            <div class="col-md-7 py-4 d-flex flex-column justify-content-center">
                 <form>
-                    <h2 class="text-center">{{__('messages.contact_title')}}</h2>
+                    <h1 class="text-center">{{__('messages.contact_title')}}</h1>
                     <div class="row my-4">
                         <div class="col-lg-6">
                             <div class="mb-3">

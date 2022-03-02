@@ -72,5 +72,5 @@
 	</div>
 </nav>
 <div class="logo-fixed px-4">
-	<img src="img/logo.webp" alt="Ahja Latvia" width="160">
+	<img src="img/logo.webp" alt="Ahja Latvia" width="160" height="auto">
 </div>

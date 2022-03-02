@@ -2,7 +2,7 @@
     <div class="carousel">
         @foreach ($images as $image)
             <a href="{{url('/')}}/{{$image->path}}">
-                <img src="{{url('/')}}/{{$image->path}}" alt="fireplace-photos">
+                <img src="{{url('/')}}/{{$image->path}}" alt="fireplace-photos" data-fancybox="carousel">
             </a>
         @endforeach
     </div>
