@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\App;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\PriceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,18 +23,9 @@ use App\Http\Controllers\ProductController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/products', [ProductController::class, 'index'])->name('products');
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
-
-Route::get('/about', function() {
-    return view('about');
-})->name('about');
-
-Route::get('/contacts', function() {
-    return view('contacts');
-})->name('contacts');
-
-Route::get('/price', function() {
-    return view('price');
-})->name('price');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
+Route::get('/price', [PriceController::class, 'index'])->name('price');
 
 Route::get('/locale/{locale}', function ($locale) {
     session(['locale'=> strtolower($locale)]);
