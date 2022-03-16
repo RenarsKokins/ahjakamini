@@ -20,15 +20,6 @@ return [
     'why_us_main_2' => 'We make our ovens of durable croval material, which has a high heat storage capacity due to its high specific gravity. Such ovens have been undisputed favourites in Finland for over 60 years. The modular oven gives off heat evenly, pleasantly and durably.',
     'why_us_main_3' => 'Also click on the magnifiers in the picture and find out what are the five especially commendable features of a modulating furnace!',
 
-    // Contact form
-    'contact_title' => 'Sazinieties ar mums!',
-    'name' => 'Vārds',
-    'number' => 'Telefona numurs',
-    'email' => 'E-pasts',
-    'subject' => 'Ziņas temats',
-    'aditional' => 'Papildus informācija',
-    'send' => 'Sūtīt',
-
     // Features of fireplace
     'feature_1' => 'How to turn a furnace into an oven? With the help of a heating wall.',
     'feature_2' => 'For a long time, a modulating furnace has not been just a fireplace, but it can also be perfectly used for cooking!',
@@ -45,6 +36,24 @@ return [
     'feedback_3' => '“You installed a furnace for me in the summer. I just wanted to say that this is the best investment I have made during the last year. The furnace works as stated and I think even better than originally thought. Recently, a chimney sweeper visited, and they were quite intrigued with the solutions and found that the Ahja furnace has significantly innovated compared to the furnaces in his memory. Promised to start recommending people to get one 🙂',
     'feedback_4' => 'Greetings also to the installers, good work :)”',
     'feedback_3_title' => 'Eva K.',
+
+    // About us
+    'about_us_title' => 'Par mums',
+
+    // Contact us
+    'contact_us_title' => 'Sazinieties ar mums!',
+
+    // Contact form
+    'contact_title' => 'Sazinieties ar mums!',
+    'name' => 'Vārds',
+    'number' => 'Telefona numurs',
+    'email' => 'E-pasts',
+    'subject' => 'Ziņas temats',
+    'aditional' => 'Papildus informācija',
+    'send' => 'Sūtīt',
+
+    // Products
+    'products_title' => 'Ko mēs piedāvājam',
 
     // Footer
     'free_shipping' => 'Bezmakasas piegāde pa visu Latviju!',

@@ -39,36 +39,24 @@
 			</ul>
 		</div>
 
-
 		<!-- Small logo -->
 		<a class="navbar-brand logo-small" href="/">Ahja Latvia</a>
 
-
 		<!-- Locale -->
 		<div class="dropdown">
-			<select id="locale-select" class="form-select" aria-label="Language selection">
+			<button class="btn dropdown-toggle" type="button" id="locale-select" data-bs-toggle="dropdown" aria-expanded="false">
 				@foreach($languages as $language)
 					@if (strtolower($language->iso) == app()->getLocale())
-						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}" selected >{{$language->iso}}</option>
-					@else
-						<option value="{{ route('setLocale', ['locale' => $language->iso]) }}">{{$language->iso}}</option>
+						<i class="{{strtolower($language->iso)}} flag"></i>
 					@endif
-					
 				@endforeach
-			</select>
+			</button>
+			<ul class="dropdown-menu" aria-labelledby="locale-select">
+				@foreach($languages as $language)
+					<li><a class="dropdown-item" href="{{ route('setLocale', ['locale' => $language->iso]) }}"><i class="{{strtolower($language->iso)}} flag"></i></a></li>
+				@endforeach
+			</ul>
 		</div>
-
-		<script>
-			$(function(){
-				$('#locale-select').on('change', function () {
-					var url = $(this).val();
-					if (url) {
-						window.location = url;
-					}
-					return false;
-				});
-			});
-		</script>
 	</div>
 </nav>
 <div class="logo-fixed px-4">

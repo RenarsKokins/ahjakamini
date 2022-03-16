@@ -34,6 +34,40 @@ h1 {
     }
 }
 
+/* Flags */
+i.flag:not(.icon):before {
+    display: inline-block;
+    content: '';
+    background: url("https://mdbootstrap.com/img/svg/flags.png") no-repeat -108px -1976px;
+    width: 16px;
+    height: 11px;
+}
+
+i.flag.lv:before,
+i.flag.latvia:before {
+    background-position: -36px -1456px;
+}
+
+i.flag.ru:before,
+i.flag.russia:before {
+    background-position: -72px -884px;
+}
+
+i.flag.en:before,
+i.flag.england:before {
+    background-position: -72px -1950px;
+}
+
+/* Images */
+.img-landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/home.webp");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    padding: 5rem 0 5rem 0;
+}
+
 /* Button */
 .ahja-button {
     background-color: #9F2C36;
@@ -52,15 +86,6 @@ h1 {
 }
 
 /* Home page */
-.img-landing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/home.webp");
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    background-size: cover;
-    padding: 5rem 0 5rem 0;
-}
-
 .img-features {
     max-width: 100%;
     width: 100%;
@@ -92,6 +117,7 @@ h1 {
 /* Gallery */
 .gallery-image {
     width: 100%;
+    min-height: 100px;
     border-radius: 16px;
 }
 
