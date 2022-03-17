@@ -54,6 +54,8 @@ return [
 
     // Products
     'products_title' => 'Ko mēs piedāvājam',
+    'products_modular' => 'Modulārās krāsnis',
+    'products_price' => 'Cenas sākot no',
 
     // Footer
     'free_shipping' => 'Bezmakasas piegāde pa visu Latviju!',

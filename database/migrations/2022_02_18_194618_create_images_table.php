@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('path');
             $table->boolean('show_in_gallery')->default(TRUE);
             $table->foreignId('fireplace_id')->default(NULL)->nullable();
+            $table->boolean('main')->default(FALSE)->nullable();
         });
     }
 

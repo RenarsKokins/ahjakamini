@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('fireplaces', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->decimal('price',9,3);
+            $table->integer('price');
         });
     }
 

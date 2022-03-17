@@ -2,13 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
+use App\Models\Fireplace;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     function index(){
-        $images = DB::table('images')->inRandomOrder()->limit(10)->get();
-        return view('products', compact('images'));
+        $fireplaces = Fireplace::all();
+        foreach ($fireplaces as $fireplace) {
+            $fireplace->details = $fireplace->getCurrentLanguageDetails;
+            $fireplace->image = $fireplace->getMainImage;
+        }
+
+        return view('products', compact('fireplaces'));
     }
 }
