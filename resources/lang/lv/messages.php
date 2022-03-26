@@ -41,7 +41,9 @@ return [
     'about_us_title' => 'Par mums',
 
     // Contact us
-    'contact_us_title' => 'Sazinieties ar mums!',
+    'contact_us_phone' => 'Mūsu numurs',
+    'contact_us_email' => 'Mūsu e-pasts',
+    'contact_us_address' => 'Mūsu adrese',
 
     // Contact form
     'contact_title' => 'Sazinieties ar mums!',

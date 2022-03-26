@@ -177,6 +177,12 @@ i.flag.england:before {
     background-color: #9F2C36;
 }
 
+/* Contacts */
+.contact-icon {
+    color: #9F2C36;
+    font-size: 3.5rem;
+}
+
 /* Footer */
 .icon-footer {
     color: #9F2C36;
