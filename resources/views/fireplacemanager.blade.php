@@ -13,7 +13,7 @@
         <x-navbar/>
 
         <!-- Main content -->
-        <div class="container-fluid img-landing">
+        <div class="container-fluid img-ahja img-products">
             <div class="container py-5 flex-row">
                 <h1 class="py-4">Fireplace manager</h1>
             </div>

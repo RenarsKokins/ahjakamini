@@ -13,7 +13,7 @@
         <x-navbar/>
 
         <!-- Main conent -->
-        <div class="container-fluid img-landing">
+        <div class="container-fluid img-ahja img-products">
             <div class="container py-5 flex-row">
                 <h1 class="py-4">{{ $fireplace->details[0]->title }}</h1>
             </div>

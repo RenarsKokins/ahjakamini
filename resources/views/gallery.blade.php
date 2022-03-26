@@ -13,7 +13,7 @@
         <x-navbar/>
 
         <!-- Main conent -->
-        <div class="container-fluid img-landing">
+        <div class="container-fluid img-ahja img-gallery">
             <div class="container py-5 flex-row">
                 <h1 class="py-4">{{__('messages.gallery')}}</h1>
             </div>

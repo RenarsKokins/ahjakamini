@@ -58,13 +58,51 @@ i.flag.england:before {
 }
 
 /* Images */
+.img-ahja { 
+    color: white;
+    text-align: center;
+    padding: 5rem 0 5rem 0;
+}
+
 .img-landing {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/home.webp");
     background-repeat: no-repeat;
-    color: white;
-    text-align: center;
     background-size: cover;
-    padding: 5rem 0 5rem 0;
+}
+
+.img-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/about.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.img-products {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/products.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 78%;
+}
+
+.img-price {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/price.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
+}
+
+.img-gallery {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/gallery.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 55%;
+}
+
+.img-contacts {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/contacts.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 50%;
 }
 
 /* Button */

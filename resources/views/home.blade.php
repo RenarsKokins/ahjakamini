@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="If you need to stay warm during winter and want to feel cozy, get yourself a fireplace for your house.">
 
         <title>{{__('messages.home')}} | Ahja Latvia</title>
 
@@ -13,7 +14,7 @@
         <x-navbar/>
 
         <!-- Main conent -->
-        <div class="container-fluid img-landing">
+        <div class="container-fluid img-ahja img-landing">
             <div class="container py-5 flex-row">
                 <h1 class="py-4">{{__('messages.home_title')}}</h1>
                 <div class="py-4">

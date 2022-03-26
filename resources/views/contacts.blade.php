@@ -13,7 +13,7 @@
         <x-navbar/>
 
         <!-- Main conent -->
-        <div class="container-fluid img-landing">
+        <div class="container-fluid img-ahja img-contacts">
             <div class="container py-5 flex-row">
                 <h1 class="py-4">{{__('messages.home_title')}}</h1>
             </div>
