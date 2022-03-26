@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Models\Image;
 
 class GalleryController extends Controller
 {
     function index(){
-        $images = DB::table('images')->get();
+        $images = Image::where('show_in_gallery', '=', '1')->get();
         $image_count = (int)($images->count()/3);
         $last = 0;
         $images_sorted = array();

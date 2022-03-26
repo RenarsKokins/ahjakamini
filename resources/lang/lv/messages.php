@@ -57,6 +57,21 @@ return [
     'products_modular' => 'Modulārās krāsnis',
     'products_price' => 'Cenas sākot no',
 
+    // Product view
+    'product_about' => 'Kamīna apraksts',
+    'product_title' => 'Kamīna nosaukums',
+    'product_description' => 'Apraksts',
+    'product_finish' => 'Kamīna apdare',
+    'product_width' => 'Platums',
+    'product_height' => 'Augstums',
+    'product_depth' => 'Dziļums',
+    'product_internal' => 'Kamīna iekšējais izmērs',
+    'product_mass' => 'Kamīna masa',
+    'product_heating' => 'Apsildes platība',
+    'product_get_info' => 'Iegūt vairāk informāciju par ',
+    'product_about_price' => '* The price includes the oven door, soot and ash doors. The price depends on the complexity and finish of the installation.',
+    'product_gallery' => 'Kamīna bildes',
+
     // Footer
     'free_shipping' => 'Bezmakasas piegāde pa visu Latviju!',
 

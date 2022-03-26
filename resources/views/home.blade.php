@@ -55,7 +55,7 @@
         <x-feedback/>
 
         <!-- Image carousel -->
-        <x-img_carousel :images="$images"/>
+        <x-img_carousel :images="$images" :autoplay="true"/>
 
         <!-- Get a quote -->
         <x-quote/>

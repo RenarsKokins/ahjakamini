@@ -97,7 +97,6 @@ class FireplaceManagerController extends Controller
             if ($request->has('heating')) $details->heating = $request->input('heating');
             $details->save();
         }
-
         return redirect('fireplacemanager');
     }
 

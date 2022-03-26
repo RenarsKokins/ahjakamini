@@ -130,6 +130,16 @@ i.flag.england:before {
     border-radius: 16px;
 }
 
+/* Product view */
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.main-img a:hover {
+    background-color: #9F2C36;
+}
+
 /* Footer */
 .icon-footer {
     color: #9F2C36;

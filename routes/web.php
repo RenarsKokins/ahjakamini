@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\App;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProductViewController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\PriceController;
@@ -23,6 +24,7 @@ use App\Http\Controllers\FireplaceManagerController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/products', [ProductController::class, 'index'])->name('products');
+Route::get('/products/{id}', [ProductViewController::class, 'index'])->name('product_view');
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');

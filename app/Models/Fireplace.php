@@ -23,8 +23,8 @@ class Fireplace extends Model
 
     public function getCurrentLanguageDetails(){
         $locale = App::currentLocale();
-        $lang = Language::all()->where('iso', '=', strtoupper($locale));
-        return $this->hasMany(Detail::class)->where('language_id', '=', '1');
+        $lang = Language::firstWhere('iso', strtoupper($locale));
+        return $this->hasMany(Detail::class)->where('language_id', $lang->id);
     }
 
     public function getMainImage(){

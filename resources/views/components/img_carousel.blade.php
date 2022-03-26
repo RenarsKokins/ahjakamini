@@ -14,7 +14,7 @@
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: "{{$autoplay}}",
             autoplaySpeed: 2000,
             variableWidth: true,
             lazyLoad: 'ondemand',

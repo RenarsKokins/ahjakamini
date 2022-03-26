@@ -21,21 +21,26 @@
         <div class="container py-5">
             <h2 class="mx-auto text-center"><strong>{{__('messages.products_modular')}}</strong></h2>
         </div>
+
+        @foreach ($fireplaces as $fireplace)
         <div class="container">
-            <div class="d-flex flex-wrap">
-                @foreach ($fireplaces as $fireplace)
-                    <div class="card">
-                        <img src="{{url('/')}}/{{$fireplace->image[0]->path}}" class="card-img-top" alt="fireplace">
+            <div class="row">
+                @foreach ($fireplace as $element)
+                <div class="col-sm-4 px-2 px-md-4 py-3">
+                    <div class="card border-0 shadow-lg">
+                        <img src="{{url('/')}}/{{$element->image[0]->path}}" class="card-img-top" alt="fireplace">
                         <div class="card-body">
-                            <h5 class="card-title">{{$fireplace->details[0]->title}}</h5>
-                            <p class="card-text fw-light">{{$fireplace->details[0]->description}}</p>
-                            <p class="card-text fw-light">{{__('messages.products_price')}} {{$fireplace->price}}€</p>
-                            <a class="btn btn px-4 ahja-button" href="#" role="button">{{__('messages.read_more')}}</a>
+                            <h5 class="card-title">{{$element->details[0]->title}}</h5>
+                            <p class="card-text fw-light">{{$element->details[0]->description}}</p>
+                            <p class="card-text">{{__('messages.products_price')}} {{$element->price}}€</p>
+                            <a class="btn btn px-4 ahja-button" href="{{url('/products/' . $element->id)}}" role="button">{{__('messages.read_more')}}</a>
                         </div>
                     </div>
+                </div>
                 @endforeach
             </div>
         </div>
+        @endforeach
 
         <!-- Get a quote -->
         <x-quote/>
