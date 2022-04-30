@@ -19,6 +19,18 @@
             </div>
         </div>
 
+        <div class="container d-flex flex-row py-5">
+            <div class="container px-5 text-center">
+                <h1>{{__('messages.about_us_who_are_we')}}</h1>
+                <p>{{__('messages.about_us_main_1')}}</p>
+                <p>{{__('messages.about_us_main_2')}}</p>
+                <p><strong>{{__('messages.about_us_slogan')}}</strong></p>
+            </div>
+            <div class="container px-5">
+                <img class="img-features" src="/img/about.jpg" alt="our team">
+            </div>
+        </div>
+
         <!-- Get a quote -->
         <x-quote/>
 

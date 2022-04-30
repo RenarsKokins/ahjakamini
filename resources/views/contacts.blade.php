@@ -28,7 +28,7 @@
                         </div>
                         <div class="pt-4 text-center">
                             <h3>{{__('messages.contact_us_phone')}}</h3>
-                            <p>(+371) 26 177 676</p>
+                            <p class="pt-4">(+371) 26 177 676</p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="pt-4 text-center">
                             <h3>{{__('messages.contact_us_email')}}</h3>
-                            <p>ahjalatvia@gmail.com</p>
+                            <p class="pt-4">ahjalatvia@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         </div>
                         <div class="pt-4 text-center">
                             <h3>{{__('messages.contact_us_address')}}</h3>
-                            <p>Jelgava, Latvia</p>
+                            <p class="pt-4">Jelgava, Latvia</p>
                         </div>
                     </div>
                 </div>

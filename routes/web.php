@@ -29,10 +29,10 @@ Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contacts', [ContactsController::class, 'index'])->name('contacts');
 Route::get('/price', [PriceController::class, 'index'])->name('price');
-Route::get('/fireplacemanager', [FireplaceManagerController::class, 'index'])->name('fireplacemanager');
-Route::post('/fireplacemanager', [FireplaceManagerController::class, 'create'])->name('fireplacemanager.create');
-Route::put('/fireplacemanager', [FireplaceManagerController::class, 'update'])->name('fireplacemanager.update');
-Route::delete('/fireplacemanager', [FireplaceManagerController::class, 'delete'])->name('fireplacemanager.delete');
+Route::get('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'index'])->name('fireplacemanager');
+Route::post('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'create'])->name('fireplacemanager.create');
+Route::put('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'update'])->name('fireplacemanager.update');
+Route::delete('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'delete'])->name('fireplacemanager.delete');
 
 Route::get('/locale/{locale}', function ($locale) {
     session(['locale'=> strtolower($locale)]);

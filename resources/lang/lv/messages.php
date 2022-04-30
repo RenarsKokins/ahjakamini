@@ -1,6 +1,6 @@
 <?php
  
-// resources/lang/en/messages.php
+// resources/lang/lv/messages.php
  
 return [
     // Navbar
@@ -13,32 +13,36 @@ return [
     'contact' => 'Kontakti',
 
     // Home page
-    'home_title' => 'Krāsnis, kurām jūs piedāvājat dizainu un mēs tās uzbūvējam!',
+    'home_title' => 'Kamīni, kuriem jūs piedāvājat dizainu un mēs tos uzbūvējam!',
     'why_us_title' => 'Kāpēc izvēlēties mūs?',
     'contact_form_button' => 'Sazināties ar mums!',
-    'why_us_main_1' => 'If the primary purpose when choosing a furnace is heating, then the modular oven is undoubtedly the best choice. A fireplace oven is an oven with a glass door which, when heated, stores warm air and heats the room for up to 24 hours. The heat of the oven is cosier than any other heating!',
-    'why_us_main_2' => 'We make our ovens of durable croval material, which has a high heat storage capacity due to its high specific gravity. Such ovens have been undisputed favourites in Finland for over 60 years. The modular oven gives off heat evenly, pleasantly and durably.',
-    'why_us_main_3' => 'Also click on the magnifiers in the picture and find out what are the five especially commendable features of a modulating furnace!',
+    'why_us_main_1' => 'Ja galvenais mērķis, izvēloties kamīnu, ir sildīšana, tad modulārais kamīns neapšaubāmi ir labākā izvēle. Kamīna krāsns ir krāsns ar stikla durvīm, kas, karsējot, sasilda gaisu un silda telpu līdz pat 24 stundām. Kamīna siltums ir omulīgāks par jebkuru citu sildīšanas veidu!',
+    'why_us_main_2' => 'Mēs taisām kamīnus no izturīga "croval" materiāla, kam tā lielā īpatnējā smaguma dēļ ir liela siltuma uzglabāšanas ietilpība. Šādi kamīni Somijā ir neapstrīdami iecienītas jau vairāk nekā 60 gadus. Modulārais kamīns silda vienmērīgi un patīkami.',
+    'why_us_main_3' => 'Noklikšķiniet arī uz attēla palielinātājiem un uzziniet, kādas ir piecas īpaši slavējamas modulējošā kamīna funkcijas!',
 
     // Features of fireplace
-    'feature_1' => 'How to turn a furnace into an oven? With the help of a heating wall.',
-    'feature_2' => 'For a long time, a modulating furnace has not been just a fireplace, but it can also be perfectly used for cooking!',
-    'feature_3' => 'Our modulating furnace is environmentally friendly and we work on it every day to make our fireplace even cleaner.',
-    'feature_4' => 'With only 1 heating session, it is possible to keep the room warm and Your mood happy for 24 hours.',
-    'feature_5' => 'Our modulating furnace creates a cozy, warm atmosphere in your home for having a pleasant time with Your family. Or for playing board games!',
+    'feature_1' => 'Kā kamīnu pārvērst krāsnī? Ar apsildāmās sienas palīdzību.',
+    'feature_2' => 'Modulārie kamīni nav tikai kamīni, bet tos var arī lieliski izmantot ēdiena gatavošanai!',
+    'feature_3' => 'Mūsu modulārais kamīns ir videi draudzīgs, un mēs pie tās strādājam katru dienu, lai mūsu kamīnu padarītu vēl tīrāku un zaļāku.',
+    'feature_4' => 'Ar tikai 1 sildīšanas sesiju ir iespējams telpu saglabāt siltu un Jūsu garastāvokli priecīgu 24 stundas.',
+    'feature_5' => 'Mūsu modulārais kamīns rada omulīgu, siltu gaisotni jūsu mājās, lai jūs labi pavadītu laiku kopā ar Jūsu ģimeni, vai arī galda spēlēm!',
 
     // Feedback
     'feedback_title' => 'Atsauksmes par mums',
-    'feedback_1' => '“The furnace by Ahja fills me with nostalgia, I am immediately reminded of my grandmothers\' furnaces. The furnace is a modulating one and so it is also ideal for baking meat and preparing oven potatoes - mmm. When your stomach is full, it is good to sit on the couch and just watch. Yes, you watch the fire and think...”',
+    'feedback_1' => '“Ahja Latvija kamīns mani piepilda ar nostalģiju, man tas uzreiz atgādināja savas vecmāmiņas krāsnis. Kamīns ir modulārs, un tāpēc tas ir ideāli piemērots arī gaļas cepšanai un krāsns kartupeļu gatavošanai - mmm. Kad vēders ir pilns, ir labi sēdēt uz kušetes, vērot uguni un domāt...”',
     'feedback_1_title' => 'Kristīne H.',
-    'feedback_2' => '“Before putting the order in, we also visited Ahja on site to see what is on offering and discuss details and solutions. From there we got ideas for finishing and chose the door that we liked the most. It was a big surprise for us that we were free to choose the decorative stones ourselves. This is the detail that makes our furnace unique.”',
+    'feedback_2' => '“Pirms pasūtījuma ieviešanas mēs apmeklējām arī rūpnīcu klātienē, lai redzētu, kas tiek piedāvāts, un apspriestu detalizētu informāciju un risinājumus. No turienes mums radās idejas, kā to izveidot, un mēs izvēlējāmies tās kamīna durtiņas, kuras mums patika visvairāk. Liels pārsteigums mums bija tas, ka paši brīvi izvēlējāmies dekoratīvos akmeņus. Šī ir tā detaļa, kas mūsu kamīnu padara unikālu.”',
     'feedback_2_title' => 'Kārlis L.',
-    'feedback_3' => '“You installed a furnace for me in the summer. I just wanted to say that this is the best investment I have made during the last year. The furnace works as stated and I think even better than originally thought. Recently, a chimney sweeper visited, and they were quite intrigued with the solutions and found that the Ahja furnace has significantly innovated compared to the furnaces in his memory. Promised to start recommending people to get one 🙂',
-    'feedback_4' => 'Greetings also to the installers, good work :)”',
+    'feedback_3' => '“Jūs man vasarā uzstādījāt krāsni. Es tikai gribēju pateikt, ka šis ir labākais ieguldījums, ko esmu veikusi pēdējā gada laikā. Kamīns darbojas, kā teikts, un, manuprāt, pat labāk, nekā sākotnēji domāts. Nesen to iztīrīja kāds skursteņa slaucītājs, un viņi bija intriģēti par kamīnu, teica, ka Ahja kamīns ir ievērojami labs risinājums, salīdzinot ar viņa atmiņā esošajiem kamīniem. Sola sākt ieteikt cilvēkiem pasūtīt pie jums 🙂',
+    'feedback_4' => 'Sveiciens arī krāsns uzstādītājiem, labi paveikts darbs!”',
     'feedback_3_title' => 'Eva K.',
 
     // About us
     'about_us_title' => 'Par mums',
+    'about_us_who_are_we' => 'Kas mēs esam?',
+    'about_us_main_1' => 'Mēs esam modulāro kamīnu ražotājs, kura pirmssākumi ir meklējami Igaunijā. Tas viss aizsākās 2015. gadā, kad tika uzbūvēta pirmā rūpnīca. Pirms tam kamīni tika ražoti vecā traktoru servisā. Pateicoties lielajai atsauksmei, Ahja moodulahi ir izlēmuši arī atvērt rūpnīcu Latvijā zem vārda "Ahja Latvia".',
+    'about_us_main_2' => 'Rūpnīcā katrs kamīns tiek rūpīgi veidots mūsu pašu Latviešu rokām, un katrs kamīns ir individuāls jūsu mājas sildīšanai. Katru kamīnu veido līdz pat desmit kamīnu meistari, kuri tai velta savu sirdi un dvēseli, būvējot kamīnus pēc jūsu vēlmēm.',
+    'about_us_slogan' => 'Vēlam siltas emocijas un komfortu no Ahja Latvia!',
 
     // Contact us
     'contact_us_phone' => 'Mūsu numurs',
@@ -50,13 +54,13 @@ return [
     'name' => 'Vārds',
     'number' => 'Telefona numurs',
     'email' => 'E-pasts',
-    'subject' => 'Ziņas temats',
-    'aditional' => 'Papildus informācija',
+    'subject' => 'Temats',
+    'aditional' => 'Ziņa',
     'send' => 'Sūtīt',
 
     // Products
     'products_title' => 'Ko mēs piedāvājam',
-    'products_modular' => 'Modulārās krāsnis',
+    'products_modular' => 'Modulārie kamīni',
     'products_price' => 'Cenas sākot no',
 
     // Product view
@@ -71,7 +75,7 @@ return [
     'product_mass' => 'Kamīna masa',
     'product_heating' => 'Apsildes platība',
     'product_get_info' => 'Iegūt vairāk informāciju par ',
-    'product_about_price' => '* The price includes the oven door, soot and ash doors. The price depends on the complexity and finish of the installation.',
+    'product_about_price' => '* Cenā ietilpst kamīna durtiņas, sodrēji un pelnu durvis. Cena ir atkarīga no uzstādīšanas sarežģītības un arējā izskata.',
     'product_gallery' => 'Kamīna bildes',
 
     // Footer
