@@ -56,6 +56,8 @@ return [
     'subject' => 'Subject',
     'aditional' => 'Message',
     'send' => 'Send',
+    'success' => 'E-mail sent! We will contact you shortly.',
+    'fail' => 'E-mail wasn\'t sent. Please try again later.',
 
     // Products
     'products_title' => 'What we offer',

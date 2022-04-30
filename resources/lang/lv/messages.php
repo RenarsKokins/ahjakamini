@@ -57,6 +57,8 @@ return [
     'subject' => 'Temats',
     'aditional' => 'Ziņa',
     'send' => 'Sūtīt',
+    'success' => 'E-pasts aizsūtīts! Mēs ar jums drīz sazināsimies.',
+    'fail' => 'E-pasts netika aizsūtīts. Pamēģiniet pāris minūtes vēlāk.',
 
     // Products
     'products_title' => 'Ko mēs piedāvājam',

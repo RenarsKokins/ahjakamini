@@ -10,6 +10,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\PriceController;
 use App\Http\Controllers\FireplaceManagerController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,7 @@ Route::get('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [Fireplace
 Route::post('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'create'])->name('fireplacemanager.create');
 Route::put('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'update'])->name('fireplacemanager.update');
 Route::delete('/fireplacemanager/vbciouersnmfs456kjh456dfg9cvbfg1445ks', [FireplaceManagerController::class, 'delete'])->name('fireplacemanager.delete');
+Route::post('/form/submit', [FormController::class, 'send'])->name('form.submit');
 
 Route::get('/locale/{locale}', function ($locale) {
     session(['locale'=> strtolower($locale)]);
